@@ -1,0 +1,20 @@
+.search-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+
+.search-main-input {
+    padding: 20px 30px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.main-button {
+    color: white;
+    background-color: black;
+    padding: 20px 30px; 
+    border-radius: 16px;
+}

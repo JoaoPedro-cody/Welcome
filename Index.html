@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/Apps-main.css">
+    <link rel="stylesheet" href="Styles/main-header.css">
+    <link rel="stylesheet" href="Styles/search-main.css">
+    <link rel="stylesheet" href="Styles/main-container.css">
 </head> 
 <body>
-    <header>
-        <h1>Welcome</h1>
-    </header>
-    
-    <form action="https://www.google.com/search" method="GET" class="Apps-search">
-        <input type="text" name="q" placeholder="Pesquise no Google..." required>
-        <button type="submit">Buscar</button>
-    </form>
-    
-    
-    <section class="Apps-main">
-        <a href="https://www.youtube.com/" target="_blank"> <img src="imgs/video.png" alt="Imagem youtube" ></a>
-        <a href="https://x.com/" target="_blank"> <img src="imgs/twitter.png" alt="Imagem x"></a>
-        <a href="https://mail.google.com/" target="_blank"> <img src="imgs/gmail.png" alt="Imagem gmail"></a>
-        <a href="https://github.com/" target="_blank"> <img src="imgs/github.png" alt="Imagem github"></a>
+    <section class="main-container">
+        <div class="main-header">   
+            <h1>Welcome</h1>
+        </div>
+        
+        <form action="https://www.google.com/search" method="GET" class="search-main" target="_blank">
+            <h1>Google</h1>
+            <input type="text" name="q" placeholder="Pesquise no Google..." required class="search-main-input">
+            <button type="submit" class="main-button">Buscar</button>
+        </form>
+        <div class="Apps-main">
+            <a href="https://x.com/" target="_blank"> <img src="imgs/twitter.png" alt="Imagem x" class="Apps-main-app"></a>
+            <a href="https://www.youtube.com/" target="_blank"> <img src="imgs/video.png" alt="Imagem youtube" class="Apps-main-app" ></a>
+            <a href="https://mail.google.com/" target="_blank"> <img src="imgs/gmail.png" alt="Imagem gmail" class="Apps-main-app"></a>
+            <a href="https://univirtus.uninter.com/" target="_blank"> <img src="imgs/books (1).png" alt="Imagem uninter" class="Apps-main-app"></a>
+            <a href="https://www.crunchyroll.com/" target="_blank"> <img src="imgs/connection.png" alt="Imagem crunchyroll" class="Apps-main-app"></a>
+            <a href="https://github.com/" target="_blank"> <img src="imgs/github.png" alt="Imagem github" class="Apps-main-app"></a>
+        </div>
     </section>
 </body>   
 </html>

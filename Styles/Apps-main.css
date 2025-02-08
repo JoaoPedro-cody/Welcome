@@ -1,0 +1,18 @@
+.Apps-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 70px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.Apps-main-app {
+    transition: transform 0.3s ease-in-out;
+}
+
+.Apps-main-app:hover {
+    transform: scale(1.10);
+}
